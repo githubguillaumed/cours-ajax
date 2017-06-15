@@ -151,3 +151,59 @@ input, textarea, select{font-size:12px; font-family:Georgia,"Times New Roman",Ti
 
 #footer{padding:20px 0;}
 #footer p{margin:0; padding:0;}
+
+/************************FORMULAIRE************************/
+
+.form
+{
+	padding: 10px;
+	margin:0px auto;
+	border: solid 1px #ccc;
+	background: #fafafa;
+}
+label{
+	display:block;
+	font-weight: bolder;
+	clear:both;
+	width:100%;
+	padding-top:10px;
+	padding-bottom:10px;
+	
+}
+
+input
+{
+	display:block;
+}
+
+input[type="submit"]
+{
+	display:block;
+	margin:30px auto 0;
+	border:0;
+	border-radius: 2px;
+	line-height: 30px;
+	width:100%;
+	background: #2196f3;
+	color:#fff;
+	cursor:pointer;
+	font-size:1rem;
+}
+
+input[type="text"]
+{
+	width:100%;
+	line-height: 30px;
+}	
+
+#carrousel{
+    position:relative;
+    height:400px;
+    width:700px;
+    margin:auto;
+}
+#carrousel ul li{
+    position:absolute;
+    top:0;
+    left:0;
+}
